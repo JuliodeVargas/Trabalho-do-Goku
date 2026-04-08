@@ -25,7 +25,7 @@ Melhor professsor que tivemos ate agora.
 
 João (Goku)
 <p align="center">
-  mg src="[[LINK_DA_IMAGEM_AQUI]](https://instagram.fpgz3-1.fna.fbcdn.net/v/t51.82787-19/567468143_18426363415107813_1508660522938669359_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fpgz3-1.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gF7aUi5PIbL5eq5EXtRVvbKObcuhvliPs1s614mJsXB3IyTJe2ceCgl8aSQCw8FOaM&_nc_ohc=rCoYPOKZoPkQ7kNvwGjLQz8&_nc_gid=t4phIvIKXxO8czEK_-Ku9A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af10LOxOOUPaEnKifm2weUyUY52yiPxx721pIKLcN1kV9g&oe=69DC452B&_nc_sid=8b3546)" alt="Professor João (Goku)" width="250"/>
+  mg src="(https://instagram.fpgz3-1.fna.fbcdn.net/v/t51.82787-19/567468143_18426363415107813_1508660522938669359_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fpgz3-1.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gF7aUi5PIbL5eq5EXtRVvbKObcuhvliPs1s614mJsXB3IyTJe2ceCgl8aSQCw8FOaM&_nc_ohc=rCoYPOKZoPkQ7kNvwGjLQz8&_nc_gid=t4phIvIKXxO8czEK_-Ku9A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af10LOxOOUPaEnKifm2weUyUY52yiPxx721pIKLcN1kV9g&oe=69DC452B&_nc_sid=8b3546)" alt="Professor João (Goku)" width="250"/>
 </p>Agradecemos pela dedicação, pela proposta da atividade e pela contribuição essencial para o nosso aprendizado em Estruturas de Dados.
 
 
