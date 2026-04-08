@@ -5,7 +5,7 @@ Este Trabalho apresenta um conjunto de atividade de Estruturas de Dados que foi 
 o Trabalho foi devidido em 3 Etapas que são
 
 ### Ativida 1: Listas de Exercios em C
-Aqui foram resovildos 10 Questões voltada ao desevolimento da loógica de programação e dominio da liguamgem em C.
+Aqui foram resovildos 10 Questões voltada ao desevolimento da lógica de programação e dominio da liguamgem em C.
 
 ### Atividade 2: Pilha Dinâmica e Manipulação de String
 Foram proposto dois desafios nesta atividade com o foco de estruturas de dados e manipulação Textual:
@@ -21,7 +21,7 @@ Criação de uma **simulação de atendimento com prioriazação**, considerando
 Este trabalho foi desevovildo por 6 membros que eles são eles **Adryan Viel, Bruna Santana, Davi Henrique, Julio Vargas, Pedro Woruby, Natalia Rautenberg.** Cada menbro do grupo foi separado para realizar uma etapa, tendo uma divisão de reposabiliades e de conhecimento entre os integrantes do Grupo
 
 ### agradecimento especial
-Melhor professsor que tivemos ate agora professor Goku
+Melhor professsor que tivemos até agora professor Goku
 
 </p>Agradecemos pela dedicação, pela proposta da atividade e pela contribuição essencial para o nosso aprendizado em Estruturas de Dados.
 
