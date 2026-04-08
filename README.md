@@ -14,11 +14,11 @@ Desevolvimento de **Manipulação de String**, explorando operações e funçõe
 
 ### Atividade 3: Fila Dinâmica e Simulação de atendimento:
 Nesta atividade foi realizada:
-Implemetaão de **fila dinâmica**, com uso de alocação dinâmica;
+Implemetação de **fila dinâmica**, com uso de alocação dinâmica;
 Criação de uma **simulação de atendimento com prioriazação**, considerando a Ordem de chegadas e critéros de prioridade entre os clientes;
 
 ### Equipe
-Este trabalho foi desevovildo por 6 membros que eles são eles **Adryan Viel, Bruna Santana, Davi Henrique, Julio Vargas, Pedro Woruby, Natalia Rautenberg.** Cada menbro do grupo foi separado para realizar uma etapa, tendo uma divisão de reposabiliades e de conhecimento entre os integrantes do Grupo
+Este trabalho foi desevovildo por 6 membros que são eles **Adryan Viel, Bruna Santana, Davi Henrique, Julio Vargas, Pedro Woruby, Natalia Rautenberg.** Cada memnbro do grupo foi separado para realizar uma etapa, tendo uma divisão de reponsabiliade e de conhecimento entre os integrantes do grupo.
 
 ### agradecimento especial
 Melhor professsor que tivemos até agora professor Goku
