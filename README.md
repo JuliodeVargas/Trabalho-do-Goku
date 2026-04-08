@@ -1,2 +1,138 @@
 # Trabalho-do-Goku
 trabalhos do professor Goku
+
+
+// ATIVIDADE 3
+// DESAFIO 2
+// Davi Henrique Santos Batista
+#include <stdio.h>
+#include <stdlib.h>
+
+// Estrutura do documento
+typedef struct Documento {
+    int id;
+    int paginas;
+    int prioridade;
+    struct Documento* prox;
+} Documento;
+
+// Estrutura da fila
+typedef struct {
+    Documento* inicio;
+} Fila;
+
+// Inicializa a fila
+void inicializar(Fila* f) {
+    f->inicio = NULL;
+}
+
+// Verifica se a fila está vazia
+int estaVazia(Fila* f) {
+    return f->inicio == NULL;
+}
+
+// Inserir mantendo ordem de prioridade
+void inserir(Fila* f, int id, int paginas, int prioridade) {
+    Documento* novo = (Documento*) malloc(sizeof(Documento));
+    if (novo == NULL) {
+        printf("Erro de alocacao!\n");
+        exit(1);
+    }
+
+    novo->id = id;
+    novo->paginas = paginas;
+    novo->prioridade = prioridade;
+    novo->prox = NULL;
+
+    // Caso a fila esteja vazia ou o novo tenha maior prioridade
+    if (f->inicio == NULL || prioridade < f->inicio->prioridade) {
+        novo->prox = f->inicio;
+        f->inicio = novo;
+        return;
+    }
+
+    // Percorre para encontrar posição correta
+    Documento* atual = f->inicio;
+
+    // Mantém ordem de chegada em caso de empate (<=)
+    while (atual->prox != NULL && atual->prox->prioridade <= prioridade) {
+        atual = atual->prox;
+    }
+
+    novo->prox = atual->prox;
+    atual->prox = novo;
+}
+
+// Remover (atender próximo documento)
+Documento remover(Fila* f) {
+    if (estaVazia(f)) {
+        printf("Fila vazia!\n");
+        exit(1);
+    }
+
+    Documento* temp = f->inicio;
+    Documento doc = *temp;
+
+    f->inicio = temp->prox;
+    free(temp);
+
+    return doc;
+}
+
+// Exibir fila
+void exibir(Fila* f) {
+    Documento* atual = f->inicio;
+
+    printf("\nFila de impressao:\n");
+
+    while (atual != NULL) {
+        printf("ID: %d | Paginas: %d | Prioridade: %d\n",
+               atual->id, atual->paginas, atual->prioridade);
+        atual = atual->prox;
+    }
+}
+
+// Menu principal
+int main() {
+    Fila fila;
+    inicializar(&fila);
+
+    int opcao;
+
+    do {
+        printf("\n1 - Inserir documento\n");
+        printf("2 - Imprimir proximo\n");
+        printf("3 - Exibir fila\n");
+        printf("0 - Sair\n");
+        printf("Escolha: ");
+        scanf("%d", &opcao);
+
+        if (opcao == 1) {
+            int id, paginas, prioridade;
+
+            printf("ID: ");
+            scanf("%d", &id);
+            printf("Numero de paginas: ");
+            scanf("%d", &paginas);
+            printf("Prioridade (menor = mais importante): ");
+            scanf("%d", &prioridade);
+
+            inserir(&fila, id, paginas, prioridade);
+
+        } else if (opcao == 2) {
+            if (!estaVazia(&fila)) {
+                Documento doc = remover(&fila);
+                printf("\nImprimindo documento ID %d (%d paginas)\n",
+                       doc.id, doc.paginas);
+            } else {
+                printf("\nFila vazia!\n");
+            }
+
+        } else if (opcao == 3) {
+            exibir(&fila);
+        }
+
+    } while (opcao != 0);
+
+    return 0;
+}
