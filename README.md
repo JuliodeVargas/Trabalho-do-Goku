@@ -1,4 +1,4 @@
-# Trabalho-do-Goku
+# Trabalho do Goku
 O projeto do trabalho foi realizado por estudantes da **Unicesumar- Polo de Ponta Grossa** da Displina de Estruturas de Dados
 
 Este Trabalho apresenta um conjunto de atividade de Estruturas de Dados que foi realizada e desevolvida em linguagem em C, tendo como objetivo de consolidar o conhecimentos fudamentas em programação e aprofudar os assuntos visto em sala de aula
