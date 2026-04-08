@@ -5,10 +5,10 @@ trabalhos do professor Goku
 // ATIVIDADE 3
 // DESAFIO 2
 // Davi Henrique Santos Batista
+
 #include <stdio.h>
 #include <stdlib.h>
 
-// Estrutura do documento
 typedef struct Documento {
     int id;
     int paginas;
@@ -16,22 +16,18 @@ typedef struct Documento {
     struct Documento* prox;
 } Documento;
 
-// Estrutura da fila
 typedef struct {
     Documento* inicio;
 } Fila;
 
-// Inicializa a fila
 void inicializar(Fila* f) {
     f->inicio = NULL;
 }
 
-// Verifica se a fila está vazia
 int estaVazia(Fila* f) {
     return f->inicio == NULL;
 }
 
-// Inserir mantendo ordem de prioridade
 void inserir(Fila* f, int id, int paginas, int prioridade) {
     Documento* novo = (Documento*) malloc(sizeof(Documento));
     if (novo == NULL) {
@@ -63,7 +59,6 @@ void inserir(Fila* f, int id, int paginas, int prioridade) {
     atual->prox = novo;
 }
 
-// Remover (atender próximo documento)
 Documento remover(Fila* f) {
     if (estaVazia(f)) {
         printf("Fila vazia!\n");
@@ -79,7 +74,6 @@ Documento remover(Fila* f) {
     return doc;
 }
 
-// Exibir fila
 void exibir(Fila* f) {
     Documento* atual = f->inicio;
 
@@ -92,7 +86,6 @@ void exibir(Fila* f) {
     }
 }
 
-// Menu principal
 int main() {
     Fila fila;
     inicializar(&fila);
