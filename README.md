@@ -1,2 +1,62 @@
 # Trabalho-do-Goku
 trabalhos do professor Goku
+
+**Grupo: Adryan Viel, Bruna Santana, Davi Henrique, Julio Vargas, Pedro Woruby, Natalia Rautenberg.**
+
+
+## Lista de exercicios em C
+ Resolução dos exercícios utilizando linguagem C.
+
+#### Questão 6 - Alunos Reprovados e Aprovados
+-> Ler os dados de 10 alunos e separá-los em aprovados e reprovados baseado na média final de cada um.
+
+O programa usa uma struct chamada aluno para armazenar nome, mátricula e a média.
+
+Os dados são armazenados em um vetor e, durante a leitura, cada aluno é classificado como aprovado ou reprovado e armazenado em vetores separados.
+
+Ao final, os dois grupos são exibidos.
+
+
+#### Questão 7 - Busca de livros
+-> Realizar o cadastro de 5 livros e permitir a busca por título.
+
+O programa usa uma struct chamada Livro contendo título, autor e ano.
+
+Ele lê os dados dos livros e depois solicita ao usuário um título para busca.
+
+A comparação é feita utilizando a função strcmp, exibindo todos os livros que possuem exatamente o mesmo título informado.
+
+#### Questão 8 - Dobro de 5 valores
+-> Ler 5 valores digitados pelo usuário e informar o dobro de cada um.
+
+É declarado um vetor de 5 posições e um ponteiro apontando para o início desse vetor.
+
+A leitura desses valores é feita usando "ptr+i" que representa o endereço de cada posição,e então é usado *(ptr +i) para obter o conteúdo de cada posição.
+
+Em seguida, cada valor é multiplicado por 2 e exibido na tela.
+
+#### Questão 9 - Ordenação de 3 valores
+-> Ler três valores inteiros, ordená-los em ordem crescente utilizando passagem por referência e verificar se todos são iguais.
+
+O programa define uma função ordenarVerificar que recebe os endereços de 3 variáveis (ponteiros).
+
+Dentro da função, são feitas comparações e trocas entre os valores apontados (*a, *b, *c) para garantir a ordenação do menor para o maior.
+
+Como os valores são passados por referência, as alterações feitas na função refletem diretamente nas variáveis originais.
+
+Após a ordenação, a função verifica se os três valores são iguais. Caso sejam, retorna 1; caso contrário, retorna 0.
+
+Na main, os valores já ordenados são exibidos, junto com a informação se são iguais ou diferentes.
+
+#### Questão 10 - Aluno com maior nota
+-> Armazenar alunos dinamicamente e encontrar o aluno com maior nota.
+
+A memória é alocada dinamicamente usando malloc, permitindo definir a quantidade de alunos em tempo de execução.
+
+A função maiorNota percorre os alunos utilizando ponteiros e retorna o endereço do aluno com maior nota.
+
+Então é exibido os dados desse aluno.
+
+
+
+
